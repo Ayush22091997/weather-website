@@ -19,7 +19,7 @@ fetch('/weather?address='+location).then((response)=>{
             messageOne.textContent=data.error;
         }else{
             messageOne.textContent=data.location;
-            messageTwo3.textContent=data.forecast;
+            messageTwo.textContent=data.forecast;
         }
     })
 }) ;
